@@ -8,6 +8,11 @@ This Python script continuously monitors a specified log file for new entries, l
 - Logs each line as INFO using the `logging` module.
 - Generates a real-time error count plot using Matplotlib.
 - Implements a mechanism to stop the monitoring loop using Ctrl+C.
+## Prerequisites:
+Matplotlib: Ensure Matplotlib is installed on your system. You can install it using:
+pip install matplotlib
+## Stopping the Script:
+Press Ctrl+C to stop the monitoring script.
 
 ## Usage:
 1. Clone the repository:
